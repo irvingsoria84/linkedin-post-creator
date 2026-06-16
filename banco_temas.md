@@ -26,7 +26,5 @@ STATUS: NO_CONFIGURADO
 ## Historial de Publicaciones
 
 <!-- El agente registrará aquí un resumen de cada post aprobado y su fecha.
-     Ejemplo de formato:
-     - 2024-01-15 | Reflexión sobre la importancia de delegar tareas en equipos pequeños
-     - 2024-01-17 | Cómo un error de cliente me enseñó a comunicar precios con confianza
+     Formato: - YYYY-MM-DD | Resumen del tema tratado
 -->
