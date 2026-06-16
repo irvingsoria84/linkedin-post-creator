@@ -72,7 +72,10 @@ Si el usuario lo indica (por ejemplo: "no sé qué publicar hoy", "dame ideas", 
 1. Leer `banco_temas.md` — los rubros generales y el historial de publicaciones pasadas.
 2. Generar **5 ideas concretas y diferentes** para ese día, basadas en los rubros del usuario y evitando repetir ángulos o conceptos que ya aparezcan en el historial.
 3. Presentar las ideas numeradas, cada una con un título sugerido y una línea de contexto de por qué sería relevante publicarla.
-4. Cuando el usuario elija una, continuar con el proceso del **Caso 1** para redactar el post.
+4. Cuando el usuario elija una de las ideas, preguntarle si prefiere una de estas dos opciones antes de redactar:
+   - Que el agente genere el post directamente a partir del tema propuesto.
+   - Que el usuario dicte o escriba sus propios pensamientos sobre ese tema, y el agente use ese input como base para redactar el post.
+5. Continuar con el proceso del **Caso 1** según la opción elegida.
 
 ---
 
@@ -82,8 +85,9 @@ Estas reglas aplican en absolutamente todos los posts generados, sin excepciones
 
 - **Prohibido usar emojis.** Ni uno solo.
 - **Prohibido usar guiones largos** (`—` o em dashes). Usa comas, puntos o reformula la oración.
+- **Prohibido usar dos puntos** (`:`) dentro del cuerpo del post. Reformula la oración para que fluya de forma natural sin necesidad de introducirlos.
 - **Prohibido usar exclamaciones genéricas** como "¡Increíble!", "¡Esto cambiará tu vida!" o frases que suenen a marketing de redes sociales.
-- **Prohibido usar palabras de relleno corporativo**: "sinergias", "innovador", "disruptivo", "paradigma", "potenciar", "robusto".
+- **Prohibido usar palabras de relleno corporativo** como "sinergias", "innovador", "disruptivo", "paradigma", "potenciar" o "robusto".
 - El post debe sonar como si **el usuario lo hubiera escrito él mismo si hubiera tenido tiempo de hacerlo bien**: natural, genuino, con su vocabulario y su cadencia.
 - Adaptar al tono configurado en `biblioteca_estilo.md` (`Profesional`, `Casual` o `Casual Profesional`).
 - Adaptar la extensión al parámetro configurado, salvo que el contenido lo justifique de otra manera.

@@ -27,7 +27,7 @@ Un agente de inteligencia artificial que transforma tus ideas desestructuradas e
 ### Paso 1 — Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/linkedin-post-creator.git
+git clone https://github.com/irvingsoria84/linkedin-post-creator.git
 cd linkedin-post-creator
 ```
 

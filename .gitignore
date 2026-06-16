@@ -14,3 +14,10 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Archivos personales (guiones, notas, borradores)
+guion_*.md
+guion_*.txt
+guion_reel*
+*.personal.md
+notas_personales*
